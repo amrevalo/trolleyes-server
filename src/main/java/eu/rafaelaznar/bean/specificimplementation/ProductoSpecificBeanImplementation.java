@@ -132,7 +132,7 @@ public class ProductoSpecificBeanImplementation extends TableGenericBeanImplemen
         this.setCodigo(oResultSet.getString("codigo"));       
         this.setDescripcion(oResultSet.getString("descripcion"));
         this.setExistencias(oResultSet.getInt("existencias"));
-        this.setPrecio(oResultSet.getInt("precio"));
+        this.setPrecio(oResultSet.getDouble("precio"));
         return this;
     }
 
